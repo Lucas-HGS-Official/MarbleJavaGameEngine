@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="First commit. Creating a simple game engine to study Java, LWJGL and OpenGL">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="First commit. Creating a simple game engine to study Java, LWJGL and OpenGL" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
