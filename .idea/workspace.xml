@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Keeping track if the mouse is dragging.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726023285746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Keeping track if the mouse is dragging.">
+      <option name="closed" value="true" />
+      <created>1726058750805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726058750805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,7 +167,8 @@
     <MESSAGE value="Small fix. Freeing memory in the window singleton" />
     <MESSAGE value="Created a Mouse Listener Singleton" />
     <MESSAGE value="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset" />
+    <MESSAGE value="Keeping track if the mouse is dragging." />
+    <option name="LAST_COMMIT_MESSAGE" value="Keeping track if the mouse is dragging." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
