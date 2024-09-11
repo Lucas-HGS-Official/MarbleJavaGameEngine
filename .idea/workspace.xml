@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Created a Mouse Listener Singleton">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/MouseListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725973353054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset">
+      <option name="closed" value="true" />
+      <created>1726023285746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726023285746</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,7 +157,8 @@
     <MESSAGE value="Creating a Window singleton class to make a GLFW window" />
     <MESSAGE value="Small fix. Freeing memory in the window singleton" />
     <MESSAGE value="Created a Mouse Listener Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Mouse Listener Singleton" />
+    <MESSAGE value="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding to the mouse listener: The mouse button callback, mouse scroll callback, getters for all values and an end frame value reset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
