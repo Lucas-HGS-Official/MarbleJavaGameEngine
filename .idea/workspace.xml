@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Small fix. Freeing memory in the window singleton">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Marble/MouseListener.java" afterDir="false" />
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Created a Mouse Listener Singleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/MouseListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725970404281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created a Mouse Listener Singleton">
+      <option name="closed" value="true" />
+      <created>1725973353054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725973353054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,7 +149,8 @@
     <MESSAGE value="Adding LWJGL to the project" />
     <MESSAGE value="Creating a Window singleton class to make a GLFW window" />
     <MESSAGE value="Small fix. Freeing memory in the window singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small fix. Freeing memory in the window singleton" />
+    <MESSAGE value="Created a Mouse Listener Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a Mouse Listener Singleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
