@@ -1,2 +1,2 @@
 # MarbleJavaGameEngine
-Creating a simple game engine to study Java, LWJGL and OpenGL
+A simple game engine to study Java, LWJGL and OpenGL
