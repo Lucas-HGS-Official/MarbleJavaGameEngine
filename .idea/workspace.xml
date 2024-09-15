@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Creating Delta Time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726145933023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creating Delta Time">
+      <option name="closed" value="true" />
+      <created>1726328275629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726328275629</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +202,8 @@
     <MESSAGE value="Keeping track if the mouse is dragging." />
     <MESSAGE value="Setting up the GLFW mouse callbacks" />
     <MESSAGE value="Creating the Key Listener and the GLFW key callback" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the Key Listener and the GLFW key callback" />
+    <MESSAGE value="Creating Delta Time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Delta Time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
