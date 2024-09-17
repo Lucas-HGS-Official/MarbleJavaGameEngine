@@ -18,10 +18,27 @@ public class Window {
 
     private static Window window = null;
 
+    private static Scene currentScene = null;
+
     private Window() {
         this.width = 1920;
         this.height = 1080;
         this.title = "Mario";
+    }
+
+
+    public static void changeScene(int newScene){
+        switch (newScene) {
+            case 0:
+                currentScene = new LevelEditorScene();
+                break;
+            case 1:
+                currentScene = new LevelScene();
+                break;
+            default:
+                assert false: "Unknown Scene: Scene Index" + newScene + ".";
+                break;
+        }
     }
 
     public static Window get() {
