@@ -5,7 +5,7 @@ public class LevelScene extends Scene {
         
     }
 
-    @Overrride
+    @Override
     public void update(float dt) {
         
     }
