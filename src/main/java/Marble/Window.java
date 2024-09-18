@@ -15,6 +15,8 @@ public class Window {
     private String title;
     private long glfwWindow;
 
+    public float r, g, b, a;
+
 
     private static Window window = null;
 
@@ -24,6 +26,10 @@ public class Window {
         this.width = 1920;
         this.height = 1080;
         this.title = "Mario";
+        r = 1;
+        g = 1;
+        b = 1;
+        a = 1;
     }
 
 
@@ -98,16 +104,24 @@ public class Window {
         glfwShowWindow(glfwWindow);
 
         GL.createCapabilities();
+
+        Window.changeScene(0);
     }
 
     public void loop() {
         float beginTime = Time.getTime();
         float endTime = Time.getTime();
+        float dt = -1.f;
+
         while (!glfwWindowShouldClose(glfwWindow)) {
             glfwPollEvents();
 
-            glClearColor(1.f, 0.f,0.f,1.f);
+            glClearColor(r, g, b, a);
             glClear(GL_COLOR_BUFFER_BIT);
+
+            if (dt >= 0) {
+                currentScene.update(dt);
+            }
 
             if (KeyListener.isKeyPressed(GLFW_KEY_SPACE)) {
                 System.out.println("Space!!");
@@ -116,7 +130,7 @@ public class Window {
             glfwSwapBuffers(glfwWindow);
 
             endTime = Time.getTime();
-            float dt = endTime-beginTime;
+            dt = endTime-beginTime;
             beginTime = endTime;
         }
     }

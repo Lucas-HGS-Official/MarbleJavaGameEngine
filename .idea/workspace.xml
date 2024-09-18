@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Simple key press detection for testing the scene">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Creating the skeleton of a &quot;fade to black&quot; scene transition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726577916457</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creating the skeleton of a &quot;fade to black&quot; scene transition">
+      <option name="closed" value="true" />
+      <created>1726586963504</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726586963504</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +250,8 @@
     <MESSAGE value="Simple Scene selector" />
     <MESSAGE value="Small bug fix. Override was misspelled" />
     <MESSAGE value="Simple key press detection for testing the scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple key press detection for testing the scene" />
+    <MESSAGE value="Creating the skeleton of a &quot;fade to black&quot; scene transition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the skeleton of a &quot;fade to black&quot; scene transition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
