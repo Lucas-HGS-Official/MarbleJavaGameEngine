@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Creating the skeleton of a &quot;fade to black&quot; scene transition">
+      <change afterPath="$PROJECT_DIR$/src/main/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Marble/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726586963504</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Creating the skeleton of a &quot;fade to black&quot; scene transition">
+      <option name="closed" value="true" />
+      <created>1726664682825</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726664682825</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
