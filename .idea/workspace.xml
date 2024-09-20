@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Adding the folder structure for shaders">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="A very simple shader for testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/shaders/default.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726835615803</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="A very simple shader for testing">
+      <option name="closed" value="true" />
+      <created>1726837538794</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726837538794</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +283,8 @@
     <MESSAGE value="Creating the skeleton of a &quot;fade to black&quot; scene transition" />
     <MESSAGE value="adding the init function and deleting test code" />
     <MESSAGE value="Adding the folder structure for shaders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the folder structure for shaders" />
+    <MESSAGE value="A very simple shader for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="A very simple shader for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
