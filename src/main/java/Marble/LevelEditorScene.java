@@ -65,6 +65,20 @@ public class LevelEditorScene extends Scene {
             System.out.println(glGetShaderInfoLog(fragmentID, len));
             assert false : "";
         }
+
+        // Link shaders and check for errors
+        shaderProgram = glCreateProgram();
+        glAttachShader(shaderProgram, vertexID);
+        glAttachShader(shaderProgram, fragmentID);
+        glLinkProgram(shaderProgram);
+
+        success = glGetProgrami(shaderProgram, GL_LINK_STATUS);
+        if (success == GL_FALSE) {
+            int len = glGetProgrami(shaderProgram, GL_INFO_LOG_LENGTH);
+            System.out.println("ERROR: default.dlsl\n\tShader program linking failed.");
+            System.out.println(glGetProgramInfoLog(shaderProgram, len));
+            assert false : "";
+        }
     }
 
     @Override
