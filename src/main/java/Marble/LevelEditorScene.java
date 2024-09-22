@@ -29,6 +29,20 @@ public class LevelEditorScene extends Scene {
 
     private int vertexID, fragmentID, shaderProgram;
 
+    private float[] vertexArray = {
+            // Position             // Color
+             0.5f, -0.5f, 0.f,      1.f, 0.f, 0.f, 1.f, // Bottom right
+            -0.5f, 0.5f, 0.f,       0.f, 1.f, 0.f, 1.f, // Top left
+             0.5f, 0.5f, 0.f,       0.f, 0.f, 1.f, 1.f, // Top right
+            -0.5f, -0.5f, 0.f,      1.f, 1.f, 0.f, 1.f  // Bottom left
+    };
+
+    // MUST BE COUNTER-CLOCKWISE
+    private int[] elementArray = {
+        2, 1, 0, // Top right triangle
+        0, 1, 3  // Bottom left triangle
+    };
+
     public LevelEditorScene() {
     }
 
