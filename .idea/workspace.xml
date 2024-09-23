@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="">
+    <list default="true" id="17b4d6a7-6bc6-4d0d-b429-3dbef5c584da" name="Changes" comment="Creating a simple square for testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Marble/LevelEditorScene.java" afterDir="false" />
     </list>
@@ -278,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726884450201</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Creating a simple square for testing">
+      <option name="closed" value="true" />
+      <created>1726971866936</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726971866936</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,7 +310,8 @@
     <MESSAGE value="A very simple shader for testing" />
     <MESSAGE value="Compiled the Vertex and Fragment shaders" />
     <MESSAGE value="Linking the shaders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linking the shaders" />
+    <MESSAGE value="Creating a simple square for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating a simple square for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
