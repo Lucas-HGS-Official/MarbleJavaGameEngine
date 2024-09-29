@@ -1,6 +1,7 @@
 package Marble;
 
 import org.lwjgl.BufferUtils;
+import renderer.Shader;
 
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
@@ -52,6 +53,7 @@ public class LevelEditorScene extends Scene {
     };
 
     public LevelEditorScene() {
+        Shader testShader = new Shader("src/main/assets/shaders/default.glsl");
     }
 
     @Override

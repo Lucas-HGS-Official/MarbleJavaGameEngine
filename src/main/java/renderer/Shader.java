@@ -32,13 +32,24 @@ public class Shader {
             } else if (firstPattern.equals("fragment")) {
                 fragmentSrc = splitString[1];
             } else {
-                throw new IOException("Unexpected token '" + firstPattern + "' in '" + filepath + "'");
+                throw new IOException("Unexpected token '" + secondPattern + "'");
+            }
+
+            if (secondPattern.equals("vertex")) {
+                vertexSrc = splitString[1];
+            } else if (secondPattern.equals("fragment")) {
+                fragmentSrc = splitString[1];
+            } else {
+                throw new IOException("Unexpected token '" + firstPattern + "'");
             }
 
         } catch (IOException err) {
             err.printStackTrace();
             assert false : "Error: Could not open Shader File: '" + filepath + "'";
         }
+
+        System.out.println(vertexSrc);
+        System.out.println(fragmentSrc);
     }
 
     public void compile() {
